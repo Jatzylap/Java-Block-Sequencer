@@ -2,7 +2,7 @@
 
 	let codec, format, export_action;
 	
-	const description = 'Export animation keyframes into a sequence of Minecraft block/item models.'
+	const description = 'Exports an animation into a sequence of Minecraft block/item models.'
 	const icon = 'icon-objects'
 	
 	BBPlugin.register('java_block_sequencer', {
