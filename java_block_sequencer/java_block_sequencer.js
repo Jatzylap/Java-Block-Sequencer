@@ -19,7 +19,7 @@
 		repository: "https://github.com/Jatzylap/Java-Block-Sequencer",
 		onload() {
 
-			codec = Codecs.java_block;	// Defaults to MC 1.21.11
+			codec = Codecs.java_block;	// Defaults to 1.21.11+ format
 			
 			format = new ModelFormat({
 		        id: "java_block_sequence",
@@ -40,7 +40,7 @@
 		                  <h3 class="markdown">About:</h3>
 		                  <p class="markdown">
 		                    <ul>
-		            		  <li>Adds the option to turn animation keyframes into a sequence of Minecraft block/item models.</li>
+		            		  <li>Adds the option to turn an animation into a sequence of Minecraft block/item models.</li>
 		                      <li>This will not export any item definition files for the exported models, so these must be referenced manually in a resource pack.</li>
 		                      <li>Requires <strong>Minecraft 1.21.11</strong> or later.</li>
 		                    </ul>
